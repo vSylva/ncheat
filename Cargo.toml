@@ -1,0 +1,11 @@
+[package]
+name = "ncheat"
+version = "0.1.6"
+edition = "2021"
+repository = "https://github.com/vSylva/ncheat"
+license = "Unlicense"
+description = "Simple game cheat library"
+
+[package.metadata.docs.rs]
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc", "i686-pc-windows-msvc"]
